@@ -1,0 +1,93 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  /* background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(173, 167, 180, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(254, 252, 255, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+#navbarNav {
+  margin-left: -10%;
+}
+
+.nav-item {
+  font-family: "Space Grotesk" !important;
+  color: aqua !important;
+}
+
+a {
+  font-family: "Space Grotesk";
+  color: aqua !important;
+}
+
+.explore_button {
+  margin-bottom: 17%;
+  margin-right: 41%;
+  font-family: "Space Grotesk";
+}
+
+#carousel-con {
+  width: 80% !important;
+  height: 70% !important;
+}
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 1, 1, 1) 7%,
+    rgba(54, 58, 97, 1) 67%
+  );
+
+  font-family: "Space Grotesk";
+
+  text-align: center;
+  color: rgb(133, 156, 156);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.h3footer {
+  margin: 7%;
+  padding-top: 5%;
+}
+
+.foot_add {
+  color: aliceblue;
+  padding-bottom: 4%;
+}
+
+@media (max-width: 995px) {
+  #navbarNav {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 765px) {
+  .secondcard {
+    padding-top: 10% !important;
+  }
+}
+
+.coverphoto {
+  width: 100% !important;
+}
+
+@media (max-width: 450px) {
+  .explore_button {
+    width: 70px !important;
+    font-size: x-small !important;
+    margin-bottom: 10% !important;
+    margin-right: 40%;
+  }
+}

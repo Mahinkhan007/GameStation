@@ -1,0 +1,66 @@
+#navbarNav {
+  margin-left: -10%;
+}
+body {
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(81, 29, 112, 1) 91%
+  );
+  font-family: "Space Grotesk" !important;
+  color: aliceblue !important;
+}
+
+a {
+  font-family: "Space Grotesk";
+  color: aqua !important;
+}
+
+@media (max-width: 995px) {
+  #navbarNav {
+    margin-left: 0;
+  }
+}
+
+.miles {
+  border-radius: 200px;
+  width: 110%;
+  margin-left: -35% !important;
+  margin-top: 20%;
+}
+
+.blogH1 {
+  margin-top: 20% !important;
+}
+h1 {
+  font-size: 7rem !important;
+}
+
+p {
+  font-size: 70%;
+}
+
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 1, 1, 1) 7%,
+    rgba(54, 58, 97, 1) 67%
+  );
+
+  font-family: "Space Grotesk";
+
+  text-align: center;
+  color: rgb(133, 156, 156);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.h3footer {
+  margin: 7%;
+  padding-top: 5%;
+}
+
+.foot_add {
+  color: aliceblue;
+  padding-bottom: 4%;
+}

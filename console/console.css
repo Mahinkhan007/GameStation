@@ -1,0 +1,128 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: radial-gradient(
+    circle 975px at 2.6% 48.3%,
+    rgba(0, 8, 120, 1) 0%,
+    rgba(95, 184, 224, 1) 99.7%
+  );
+  font-family: "Space Grotesk";
+}
+
+#navbarNav {
+  margin-left: -10%;
+}
+
+a {
+  font-family: "Space Grotesk";
+  color: aqua !important;
+}
+
+.btnMore {
+  margin-top: 10%;
+  margin-left: 10%;
+
+  font-family: "Space Grotesk";
+  color: aliceblue !important;
+}
+.vdocon {
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+}
+.video {
+  background-size: cover;
+}
+
+.blogCon {
+  background-image: radial-gradient(
+    circle 975px at 2.6% 48.3%,
+    rgba(0, 8, 120, 1) 0%,
+    rgba(95, 184, 224, 1) 99.7%
+  );
+  margin: 10% 40% 10% 40%;
+
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-weight: bolder;
+  font-size: larger;
+  color: azure;
+}
+
+p {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* .xbox {
+  width: 2% !important;
+  height: 2% !important;
+  margin-left: 20% !important;
+}
+
+.sony {
+  width: 22% !important;
+  height: 22% !important;
+  margin-top: -5% !important;
+}
+
+.nintendo {
+  width: 19% !important;
+  height: 19% !important;
+} */
+
+footer {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 1, 1, 1) 7%,
+    rgba(54, 58, 97, 1) 67%
+  );
+
+  font-family: "Space Grotesk";
+
+  text-align: center;
+  color: rgb(133, 156, 156);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.h3footer {
+  margin: 7%;
+  padding-top: 5%;
+}
+
+.foot_add {
+  color: aliceblue;
+  padding-bottom: 4%;
+}
+@media (max-width: 995px) {
+  #navbarNav {
+    margin-left: 0;
+  }
+}
+
+.card-img-top {
+  border-radius: 1rem;
+}
+
+.card-title {
+  font-family: "Space Grotesk" !important;
+  font-size: smaller !important;
+}
+
+@media (max-width: 480px) {
+  #sectionMore {
+    font-size: small;
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+  .items_console {
+    font-size: xx-small !important;
+  }
+}
+@media (max-width: 991px) {
+  p {
+    padding: 0% !important;
+  }
+}
